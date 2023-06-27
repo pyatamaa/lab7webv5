@@ -1,0 +1,26 @@
+CRITICAL - 2023-06-27 02:05:40 --> substr(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passi...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\lab11web\ci4\app\Views\artikel\index.php(10): substr(NULL, 0, 1000)
+#2 C:\xampp\htdocs\lab11web\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab11web\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\lab11web\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/index', Array, true)
+#5 C:\xampp\htdocs\lab11web\ci4\app\Controllers\Artikel.php(15): view('artikel/index', Array)
+#6 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#7 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#8 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lab11web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lab11web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-27 02:07:42 --> substr(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'substr(): Passi...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\lab11web\ci4\app\Views\artikel\index.php(10): substr(NULL, 0, 1000)
+#2 C:\xampp\htdocs\lab11web\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lab11web\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\lab11web\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/index', Array, true)
+#5 C:\xampp\htdocs\lab11web\ci4\app\Controllers\Artikel.php(15): view('artikel/index', Array)
+#6 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#7 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#8 C:\xampp\htdocs\lab11web\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\lab11web\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\lab11web\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
